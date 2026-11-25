@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ucai-sovereign-box"
+version = "0.2.0"
+description = "Single-GPU Sovereign Research-in-a-Box: Air-Gapped Hybrid Literature Retrieval, Verification, and RO-Crate 1.1 Reproducibility"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Noppadon Chaiwisut", email = "noppadon.chaiwisut@gmail.com"},
+  {name = "UCAI Autonomous Research Group"}
+]
+keywords = ["sovereign-ai", "research-in-a-box", "hybrid-retrieval", "ro-crate", "fair4rs", "single-gpu"]
+dependencies = [
+  "pymupdf>=1.24.0",
+  "sentence-transformers>=3.0.0",
+  "torch>=2.1.0",
+]
+
+[project.optional-dependencies]
+eval = [
+  "transformers>=4.44.0",
+  "accelerate>=0.33.0",
+  "pandas>=2.0.0",
+  "matplotlib>=3.8.0",
+  "psutil>=5.9.0",
+]
+
+[project.scripts]
+ucai-sovereign-box = "cli:main"

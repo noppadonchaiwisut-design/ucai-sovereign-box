@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 450" width="1100" height="450">
+  <defs>
+    <style>
+      text { font-family: 'Segoe UI', Arial, Helvetica, sans-serif; }
+      .h1 { font-size: 19px; font-weight: 700; fill: #ffffff; }
+      .sub { font-size: 12.5px; fill: #cbd5e1; }
+      .btitle { font-size: 13.5px; font-weight: 700; fill: #0f172a; }
+      .btxt { font-size: 12px; fill: #334155; }
+      .big { font-size: 24px; font-weight: 800; }
+      .pill { font-size: 11.5px; font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect width="1100" height="450" rx="12" fill="#f8fafc"/>
+  <rect width="1100" height="66" rx="12" fill="#0f172a"/>
+  <rect y="48" width="1100" height="18" fill="#0f172a"/>
+  <text x="26" y="30" class="h1">Single-GPU VRAM Footprint &amp; Latency Comparison (168 PDFs, 17,623 Chunks)</text>
+  <text x="26" y="51" class="sub">Measured on NVIDIA L4 (22,563 MB) with Reference Headroom for Commodity 16 GB T4 Hardware</text>
+
+  <rect x="24" y="84" width="656" height="344" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="42" y="112" class="btitle">Peak GPU VRAM Utilization vs. Total Capacity (22,563 MB L4)</text>
+
+  <text x="42" y="148" class="btxt" font-weight="700">1. Full 168-PDF Index (17,623 chunks) + all-MiniLM-L6-v2</text>
+  <rect x="42" y="158" width="600" height="30" rx="6" fill="#e2e8f0"/>
+  <rect x="42" y="158" width="14" height="30" rx="4" fill="#059669"/>
+  <text x="66" y="178" class="pill" fill="#047857">409.93 MB (1.82% of L4 | 2.50% of 16 GB T4)</text>
+
+  <text x="42" y="222" class="btxt" font-weight="700">2. Stacked Local LLM (Qwen2.5-1.5B-Instruct FP16 + MiniLM + Index)</text>
+  <rect x="42" y="232" width="600" height="30" rx="6" fill="#e2e8f0"/>
+  <rect x="42" y="232" width="82" height="30" rx="6" fill="#2563eb"/>
+  <text x="134" y="252" class="pill" fill="#1d4ed8">3,086.07 MB (13.68% of L4 | 18.84% of 16 GB T4)</text>
+
+  <text x="42" y="296" class="btxt" font-weight="700">3. Remaining Free GPU VRAM Headroom</text>
+  <rect x="42" y="306" width="600" height="30" rx="6" fill="#ecfdf5" stroke="#6ee7b7"/>
+  <rect x="42" y="306" width="518" height="30" rx="6" fill="#10b981"/>
+  <text x="301" y="326" text-anchor="middle" class="pill" fill="#ffffff">19,477 MB Free (86.32%) — Fits 7B–14B 4-bit Models</text>
+
+  <rect x="42" y="356" width="600" height="54" rx="8" fill="#f1f5f9"/>
+  <text x="58" y="378" class="btxt">• Host RAM: <tspan font-weight="700">1,779.9 MB</tspan> | Index Build (168 PDFs): <tspan font-weight="700">378.81 s</tspan> | BM25 Vocab: <tspan font-weight="700">80,593 terms</tspan></text>
+  <text x="58" y="397" class="btxt">• Ingestion Completeness: <tspan font-weight="700">168 / 168 PDFs (0 skipped)</tspan> | Qwen Load Time: <tspan font-weight="700">18.89 s</tspan></text>
+
+  <rect x="698" y="84" width="378" height="344" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="718" y="112" class="btitle">Per-Item Latency &amp; Cloud Cost</text>
+
+  <rect x="718" y="130" width="338" height="84" rx="10" fill="#ecfdf5" stroke="#6ee7b7"/>
+  <text x="734" y="156" class="pill" fill="#065f46">UCAI Sovereign Box v0.2.0 (Deterministic)</text>
+  <text x="734" y="186" class="big" fill="#047857">25.05 ms  |  $0.00</text>
+  <text x="734" y="204" class="btxt">324x faster than Cloud Security-Aware LLM</text>
+
+  <rect x="718" y="226" width="338" height="84" rx="10" fill="#eff6ff" stroke="#93c5fd"/>
+  <text x="734" y="252" class="pill" fill="#1e3a8a">Sovereign + Local Qwen2.5-1.5B (GPU)</text>
+  <text x="734" y="282" class="big" fill="#1d4ed8">229.2 ms  |  $0.00</text>
+  <text x="734" y="300" class="btxt">35x faster than Cloud Security-Aware LLM</text>
+
+  <rect x="718" y="322" width="338" height="88" rx="10" fill="#fef2f2" stroke="#fca5a5"/>
+  <text x="734" y="348" class="pill" fill="#991b1b">Cloud Security-Aware LLM (Paper 2)</text>
+  <text x="734" y="378" class="big" fill="#b91c1c">8,115 ms  |  API Cost</text>
+  <text x="734" y="396" class="btxt">External data egress + rate-limit exposure</text>
+</svg>

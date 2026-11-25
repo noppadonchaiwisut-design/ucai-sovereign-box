@@ -1,0 +1,104 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.1"
+      },
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "UCAI-Flagship4-SovereignBox-Artifact-v2",
+      "datePublished": "2026-11-25T10:23:40.890962+00:00",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "description": "Sovereign Air-Gapped Research-in-a-Box Audit & Retrieval Bundle (UCAI Flagship 4 Paper 3 Tier-2).",
+      "additionalProperty": {
+        "device": "cuda",
+        "gpu_name": "NVIDIA L4",
+        "pdfs_indexed": 168,
+        "chunks_indexed": 17623,
+        "bm25_vocab_size": 80593,
+        "peak_vram_mb": 409.93,
+        "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "index_build_sec": 378.81,
+        "pdfs_discovered": 168,
+        "pdfs_skipped": 0,
+        "ram_used_mb": 1779.9
+      },
+      "hasPart": [
+        {
+          "@id": "hardware_profile.json"
+        },
+        {
+          "@id": "UCAI-SovereignBox-Bench-v2.json"
+        },
+        {
+          "@id": "sovereign_box_results.json"
+        },
+        {
+          "@id": "paper3_tier2_comparison_summary.csv"
+        },
+        {
+          "@id": "paper3_tier2_stats.json"
+        },
+        {
+          "@id": "sovereign_local_llm_results.json"
+        }
+      ]
+    },
+    {
+      "@id": "hardware_profile.json",
+      "@type": "File",
+      "name": "hardware_profile.json",
+      "contentSize": "313",
+      "sha256": "cce71186845c0da7b5c297faea8caeb8df7c6f97b99650c7514509f456451901",
+      "encodingFormat": "application/json"
+    },
+    {
+      "@id": "UCAI-SovereignBox-Bench-v2.json",
+      "@type": "File",
+      "name": "UCAI-SovereignBox-Bench-v2.json",
+      "contentSize": "27740",
+      "sha256": "917206431e3b0c3e9a04b0c2ce7e9662500fac3f6ca7e98b6c218e347b2a63e0",
+      "encodingFormat": "application/json"
+    },
+    {
+      "@id": "sovereign_box_results.json",
+      "@type": "File",
+      "name": "sovereign_box_results.json",
+      "contentSize": "42305",
+      "sha256": "dfe9d4f779f57a37a02e607a46d79f5a7b652bfaa852dbbef5a2139b605d3b41",
+      "encodingFormat": "application/json"
+    },
+    {
+      "@id": "paper3_tier2_comparison_summary.csv",
+      "@type": "File",
+      "name": "paper3_tier2_comparison_summary.csv",
+      "contentSize": "509",
+      "sha256": "dc2d477b89319ce08c395eaec0ec51e1625e402d532ae1b196548acdf3a07c82",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@id": "paper3_tier2_stats.json",
+      "@type": "File",
+      "name": "paper3_tier2_stats.json",
+      "contentSize": "369",
+      "sha256": "a02410332ae6ef7066629c087b0db380f5e3e03ac370c4f144e5c628a03ec228",
+      "encodingFormat": "application/json"
+    },
+    {
+      "@id": "sovereign_local_llm_results.json",
+      "@type": "File",
+      "name": "sovereign_local_llm_results.json",
+      "contentSize": "48114",
+      "sha256": "d5455a496c401f69c1fd29d42f9e27c76d2774d1bc1ac6c1f9be61189d4123c6",
+      "encodingFormat": "application/json"
+    }
+  ]
+}

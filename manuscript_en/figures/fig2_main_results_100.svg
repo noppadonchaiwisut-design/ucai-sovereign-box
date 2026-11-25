@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 490" width="1100" height="490">
+  <defs>
+    <style>
+      text { font-family: 'Segoe UI', Arial, Helvetica, sans-serif; }
+      .h1 { font-size: 19px; font-weight: 700; fill: #ffffff; }
+      .sub { font-size: 12.5px; fill: #cbd5e1; }
+      .ax { font-size: 12.5px; font-weight: 700; fill: #1e293b; }
+      .lbl { font-size: 11.5px; fill: #475569; }
+      .val { font-size: 12px; font-weight: 700; fill: #0f172a; }
+      .note { font-size: 12px; font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect width="1100" height="490" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect width="1100" height="66" rx="12" fill="#0f172a"/>
+  <rect y="48" width="1100" height="18" fill="#0f172a"/>
+  <text x="26" y="30" class="h1">Empirical Benchmark on UCAI-SovereignBox-Bench-v2 (168 PDFs, N = 100 Tasks, $0 Cloud)</text>
+  <text x="26" y="51" class="sub">Single-GPU Evaluation on NVIDIA L4: Retrieval Hit@3, MRR@3, Safety Accuracy, and Safety F1 with 95% Bootstrap CIs</text>
+
+  <rect x="40" y="84" width="15" height="15" rx="3" fill="#64748b"/>
+  <text x="61" y="96" class="val">BM25-Only (13.1 ms)</text>
+  <rect x="235" y="84" width="15" height="15" rx="3" fill="#d97706"/>
+  <text x="256" y="96" class="val">Dense-Only MiniLM (24.4 ms)</text>
+  <rect x="495" y="84" width="15" height="15" rx="3" fill="#059669"/>
+  <text x="516" y="96" class="val">UCAI Sovereign Box v0.2 (25.1 ms | 410 MB)</text>
+  <rect x="40" y="106" width="15" height="15" rx="3" fill="#2563eb"/>
+  <text x="61" y="118" class="val">Sovereign + Local Qwen2.5-1.5B (229.2 ms | 3,086 MB VRAM | $0.00)</text>
+
+  <line x1="80" y1="150" x2="1050" y2="150" stroke="#e2e8f0" stroke-dasharray="4,4"/>
+  <line x1="80" y1="205" x2="1050" y2="205" stroke="#e2e8f0" stroke-dasharray="4,4"/>
+  <line x1="80" y1="260" x2="1050" y2="260" stroke="#e2e8f0" stroke-dasharray="4,4"/>
+  <line x1="80" y1="315" x2="1050" y2="315" stroke="#e2e8f0" stroke-dasharray="4,4"/>
+  <line x1="80" y1="370" x2="1050" y2="370" stroke="#334155" stroke-width="1.5"/>
+
+  <text x="70" y="154" text-anchor="end" class="lbl">100%</text>
+  <text x="70" y="209" text-anchor="end" class="lbl">75%</text>
+  <text x="70" y="264" text-anchor="end" class="lbl">50%</text>
+  <text x="70" y="319" text-anchor="end" class="lbl">25%</text>
+  <text x="70" y="374" text-anchor="end" class="lbl">0%</text>
+
+  <rect x="115" y="218" width="40" height="152" rx="4" fill="#64748b"/>
+  <text x="135" y="210" text-anchor="middle" class="val">0.69</text>
+  <rect x="160" y="234" width="40" height="136" rx="4" fill="#d97706"/>
+  <text x="180" y="226" text-anchor="middle" class="val">0.62</text>
+  <rect x="205" y="207" width="40" height="163" rx="4" fill="#059669"/>
+  <text x="225" y="199" text-anchor="middle" class="val" fill="#047857">0.74</text>
+  <rect x="250" y="207" width="40" height="163" rx="4" fill="#2563eb"/>
+  <text x="270" y="199" text-anchor="middle" class="val" fill="#1d4ed8">0.74</text>
+  <text x="202" y="395" text-anchor="middle" class="ax">Retrieval Hit@3</text>
+
+  <rect x="360" y="234" width="40" height="136" rx="4" fill="#64748b"/>
+  <text x="380" y="226" text-anchor="middle" class="val">0.62</text>
+  <rect x="405" y="269" width="40" height="101" rx="4" fill="#d97706"/>
+  <text x="425" y="261" text-anchor="middle" class="val">0.46</text>
+  <rect x="450" y="229" width="40" height="141" rx="4" fill="#059669"/>
+  <text x="470" y="221" text-anchor="middle" class="val" fill="#047857">0.64</text>
+  <rect x="495" y="229" width="40" height="141" rx="4" fill="#2563eb"/>
+  <text x="515" y="221" text-anchor="middle" class="val" fill="#1d4ed8">0.64</text>
+  <text x="447" y="395" text-anchor="middle" class="ax">MRR@3</text>
+
+  <rect x="605" y="260" width="40" height="110" rx="4" fill="#64748b"/>
+  <text x="625" y="252" text-anchor="middle" class="val">0.50</text>
+  <rect x="650" y="260" width="40" height="110" rx="4" fill="#d97706"/>
+  <text x="670" y="252" text-anchor="middle" class="val">0.50</text>
+  <rect x="695" y="168" width="40" height="202" rx="4" fill="#059669"/>
+  <text x="715" y="160" text-anchor="middle" class="val" fill="#047857">0.92</text>
+  <rect x="740" y="168" width="40" height="202" rx="4" fill="#2563eb"/>
+  <text x="760" y="160" text-anchor="middle" class="val" fill="#1d4ed8">0.92</text>
+  <text x="692" y="395" text-anchor="middle" class="ax">Safety/Audit Accuracy</text>
+
+  <rect x="850" y="368" width="40" height="2" fill="#64748b"/>
+  <text x="870" y="360" text-anchor="middle" class="val" fill="#dc2626">0.00</text>
+  <rect x="895" y="368" width="40" height="2" fill="#d97706"/>
+  <text x="915" y="360" text-anchor="middle" class="val" fill="#dc2626">0.00</text>
+  <rect x="940" y="168" width="40" height="202" rx="4" fill="#059669"/>
+  <text x="960" y="160" text-anchor="middle" class="val" fill="#047857">0.918</text>
+  <rect x="985" y="168" width="40" height="202" rx="4" fill="#2563eb"/>
+  <text x="1005" y="160" text-anchor="middle" class="val" fill="#1d4ed8">0.918</text>
+  <text x="937" y="395" text-anchor="middle" class="ax">Safety F1 [0.854, 0.968]</text>
+
+  <rect x="40" y="416" width="1020" height="58" rx="10" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1.5"/>
+  <text x="58" y="440" class="note" fill="#065f46">Key Tier-2 Finding (168 PDFs, N=100):</text>
+  <text x="295" y="440" class="lbl" fill="#065f46">UCAI Sovereign Box achieves F1 = 0.9184 (45:3 wins vs BM25, exact McNemar p &lt; 10⁻⁸) at $0.00.</text>
+  <text x="58" y="460" class="lbl" fill="#065f46">Stacking Qwen2.5-1.5B-Instruct on the same GPU consumes only 3,086.07 MB VRAM (13.68% of L4) at 229.2 ms/item.</text>
+</svg>

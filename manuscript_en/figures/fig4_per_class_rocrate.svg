@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 440" width="1100" height="440">
+  <defs>
+    <style>
+      text { font-family: 'Segoe UI', Arial, Helvetica, sans-serif; }
+      .h1 { font-size: 19px; font-weight: 700; fill: #ffffff; }
+      .sub { font-size: 12.5px; fill: #cbd5e1; }
+      .btitle { font-size: 13.5px; font-weight: 700; fill: #0f172a; }
+      .btxt { font-size: 12px; fill: #334155; }
+      .code { font-family: 'Consolas', 'Courier New', monospace; font-size: 11.2px; }
+      .pill { font-size: 11.5px; font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect width="1100" height="440" rx="12" fill="#f8fafc"/>
+  <rect width="1100" height="66" rx="12" fill="#0f172a"/>
+  <rect y="48" width="1100" height="18" fill="#0f172a"/>
+  <text x="26" y="30" class="h1">Per-Class Breakdown (N = 100) &amp; Verified RO-Crate 1.1 Provenance Bundle</text>
+  <text x="26" y="51" class="sub">100% Safety on Injection &amp; Paraphrase Classes, Transparent 8-Item Error Analysis, and 6/6 SHA-256 Verified Artifacts</text>
+
+  <rect x="24" y="84" width="600" height="334" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="42" y="112" class="btitle">Per-Class Accuracy (UCAI Sovereign Box v0.2.0)</text>
+
+  <rect x="42" y="128" width="272" height="128" rx="8" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1.5"/>
+  <text x="58" y="150" class="pill" fill="#065f46">1. INJECTION_ATTACK (n=25)</text>
+  <text x="58" y="172" class="btitle" fill="#047857">Safety: 100.0% (25/25)</text>
+  <text x="58" y="192" class="btxt">Intercepts all 10 attack payloads</text>
+  <text x="58" y="209" class="btxt">(HTML, \phantom, white-text, ZW, tags)</text>
+  <text x="58" y="234" class="pill" fill="#047857">Hit@3: 48.0% (pre-blocked)</text>
+
+  <rect x="334" y="128" width="272" height="128" rx="8" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1.5"/>
+  <text x="350" y="150" class="pill" fill="#065f46">2. SEMANTIC_PARAPHRASE (n=25)</text>
+  <text x="350" y="172" class="btitle" fill="#047857">Safety: 100.0% (25/25)</text>
+  <text x="350" y="192" class="btxt">Up from 33.3% in Tier-1 pilot;</text>
+  <text x="350" y="209" class="btxt">0.0% false positives on clean prose</text>
+  <text x="350" y="234" class="pill" fill="#047857">Hit@3: 80.0% (MiniLM + BM25)</text>
+
+  <rect x="42" y="270" width="272" height="130" rx="8" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="58" y="292" class="pill" fill="#92400e">3. EXACT_SYMBOLIC_NUMERIC (n=25)</text>
+  <text x="58" y="314" class="btitle" fill="#b45309">Safety: 88.0% | Hit@3: 100.0%</text>
+  <text x="58" y="334" class="btxt">3 conservative FPs on 2409.13740</text>
+  <text x="58" y="351" class="btxt">where 15,616 metric fell past</text>
+  <text x="58" y="368" class="btxt">the 20-page PDF ingestion cap</text>
+
+  <rect x="334" y="270" width="272" height="130" rx="8" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5"/>
+  <text x="350" y="292" class="pill" fill="#92400e">4. CROSS_DOC_MISATTRIBUTION (n=25)</text>
+  <text x="350" y="314" class="btitle" fill="#b45309">Safety: 80.0% | Hit@3: 68.0%</text>
+  <text x="350" y="334" class="btxt">Catches 20/25 swaps (incl. 92.2%);</text>
+  <text x="350" y="351" class="btxt">5 misses due to integer collisions</text>
+  <text x="350" y="368" class="btxt">(10, 15) inside cited paper</text>
+
+  <rect x="644" y="84" width="432" height="334" rx="10" fill="#ffffff" stroke="#0f766e" stroke-width="2"/>
+  <rect x="644" y="84" width="432" height="36" rx="10" fill="#0f766e"/>
+  <rect x="644" y="102" width="432" height="18" fill="#0f766e"/>
+  <text x="860" y="107" text-anchor="middle" class="pill" fill="#ffffff" font-size="13.5">RO-Crate 1.1 &amp; SHA-256 Reproducibility Bundle</text>
+
+  <text x="664" y="146" class="btitle" fill="#0f766e">SHA256SUMS.txt Self-Verification: 6/6 (100%)</text>
+  <text x="664" y="172" class="code" fill="#0f172a">• hardware_profile.json (313 B)</text>
+  <text x="664" y="192" class="code" fill="#0f172a">• UCAI-SovereignBox-Bench-v2.json (27.1 KB)</text>
+  <text x="664" y="212" class="code" fill="#0f172a">• sovereign_box_results.json (41.3 KB)</text>
+  <text x="664" y="232" class="code" fill="#0f172a">• sovereign_local_llm_results.json (47.0 KB)</text>
+  <text x="664" y="252" class="code" fill="#0f172a">• paper3_tier2_comparison_summary.csv</text>
+  <text x="664" y="272" class="code" fill="#0f172a">• paper3_tier2_stats.json (369 B)</text>
+
+  <rect x="664" y="294" width="392" height="106" rx="8" fill="#ecfdf5" stroke="#6ee7b7"/>
+  <text x="680" y="318" class="pill" fill="#065f46">FAIR4RS &amp; JSON-LD Provenance</text>
+  <text x="680" y="339" class="code" fill="#047857">@context: w3id.org/ro/crate/1.1/context</text>
+  <text x="680" y="359" class="btxt">Licenses: MIT (Code) + CC BY 4.0 (Data/Crate)</text>
+  <text x="680" y="379" class="btxt">Ready for Zenodo DOI &amp; GitHub Release</text>
+</svg>

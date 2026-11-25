@@ -1,0 +1,14 @@
+{
+  "device": "cuda",
+  "gpu_name": "NVIDIA L4",
+  "pdfs_indexed": 168,
+  "chunks_indexed": 17623,
+  "bm25_vocab_size": 80593,
+  "peak_vram_mb": 409.99,
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "index_build_sec": 330.73,
+  "pdfs_discovered": 168,
+  "pdfs_skipped": 0,
+  "ram_used_mb": 1780.5,
+  "note": "Main mode clean measurement without CrossEncoder reranker (L4 GPU, 2026-11-25)"
+}

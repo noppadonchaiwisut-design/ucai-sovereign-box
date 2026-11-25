@@ -1,0 +1,8 @@
+pymupdf>=1.24.0
+sentence-transformers>=3.0.0
+torch>=2.1.0
+transformers>=4.44.0
+accelerate>=0.33.0
+pandas>=2.0.0
+matplotlib>=3.8.0
+psutil>=5.9.0

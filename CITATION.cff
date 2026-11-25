@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "ucai-sovereign-box: Single-GPU Sovereign Research-in-a-Box with Hybrid Retrieval, Spoke 1/2 Safeguards, and RO-Crate 1.1 Packaging"
+message: "If you use ucai-sovereign-box or UCAI-SovereignBox-Bench-v2 in your research, please cite it using the metadata below."
+type: software
+version: "0.2.0"
+date-released: "2026-11-25"
+license: MIT
+authors:
+  - family-names: "Chaiwisut"
+    given-names: "Noppadon"
+    email: "noppadon.chaiwisut@gmail.com"
+    orcid: "https://orcid.org/0009-0005-2881-8458"
+    affiliation: "Independent Researcher, Thailand"
+keywords:
+  - "sovereign AI"
+  - "research-in-a-box"
+  - "single-GPU retrieval"
+  - "hybrid BM25 dense"
+  - "RO-Crate 1.1"
+  - "FAIR4RS"
+abstract: >-
+  Air-gapped single-GPU research-in-a-box combining inverted Okapi BM25 +
+  all-MiniLM-L6-v2 hybrid retrieval across full open-access PDF corpora,
+  deterministic Spoke 1/2 citation-numeric and prompt-injection safeguards,
+  optional local open-weight LLM verification (Qwen2.5-1.5B-Instruct on T4),
+  and FAIR4RS RO-Crate 1.1 + SHA-256 provenance packaging at $0.00 cloud cost.

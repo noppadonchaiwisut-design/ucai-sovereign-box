@@ -1,0 +1,842 @@
+[
+  {
+    "doc_id": "2408.06292",
+    "file": "01-2408.06292.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2504.08066",
+    "file": "02-2504.08066.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2606.15497",
+    "file": "03-2606.15497.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2502.18864",
+    "file": "04-2502.18864.pdf",
+    "chunks": 88
+  },
+  {
+    "doc_id": "2025.findings-emnlp.320",
+    "file": "05-2025.findings-emnlp.320.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2409.13740",
+    "file": "06-2409.13740.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "07-0a48036026dc7946ef6033ae14719cc5-paper-conferenc",
+    "file": "07-0a48036026dc7946ef6033ae14719cc5-paper-conferenc.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2404.07738",
+    "file": "08-2404.07738.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "09-0d904d300a105809a2114d727851e759-paper-conferenc",
+    "file": "09-0d904d300a105809a2114d727851e759-paper-conferenc.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2505.13400",
+    "file": "10-2505.13400.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2511.02824",
+    "file": "11-2511.02824.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "12-aioa2400555",
+    "file": "12-aioa2400555.pdf",
+    "chunks": 98
+  },
+  {
+    "doc_id": "2510.26887",
+    "file": "13-2510.26887.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2410.05080",
+    "file": "14-2410.05080.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2409.11363",
+    "file": "16-2409.11363.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "17-paperbench",
+    "file": "17-paperbench.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2505.19955",
+    "file": "18-2505.19955.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2510.21652",
+    "file": "19-2510.21652.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2610.19159",
+    "file": "20-2610.19159.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2026.findings-aacl.148",
+    "file": "21-2026.findings-aacl.148.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2605.07723",
+    "file": "22-2605.07723.pdf",
+    "chunks": 90
+  },
+  {
+    "doc_id": "2602.06718",
+    "file": "23-2602.06718.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2026.acl-long.2189v1",
+    "file": "25-2026.acl-long.2189v1.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2607.18360",
+    "file": "26-2607.18360.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "27-2026.groundlm-1.58",
+    "file": "27-2026.groundlm-1.58.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2602.15871",
+    "file": "28-2602.15871.pdf",
+    "chunks": 55
+  },
+  {
+    "doc_id": "2602.23452",
+    "file": "29-2602.23452.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2605.08583",
+    "file": "30-2605.08583.pdf",
+    "chunks": 115
+  },
+  {
+    "doc_id": "2610.30355",
+    "file": "31-2610.30355.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2610.38691",
+    "file": "32-2610.38691.pdf",
+    "chunks": 91
+  },
+  {
+    "doc_id": "2603.19712",
+    "file": "33-2603.19712.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2606.09500",
+    "file": "34-2606.09500.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2502.14297",
+    "file": "35-2502.14297.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2511.04583",
+    "file": "36-2511.04583.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2610.00531",
+    "file": "37-2610.00531.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2601.17036",
+    "file": "38-2601.17036.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2503.08569",
+    "file": "40-2503.08569.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2605.25415",
+    "file": "41-2605.25415.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2605.26730",
+    "file": "42-2605.26730.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2610.11087",
+    "file": "43-2610.11087.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2507.06185",
+    "file": "44-2507.06185.pdf",
+    "chunks": 40
+  },
+  {
+    "doc_id": "2509.10248",
+    "file": "45-2509.10248.pdf",
+    "chunks": 63
+  },
+  {
+    "doc_id": "2609.19420",
+    "file": "46-2609.19420.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2506.12469",
+    "file": "47-2506.12469.pdf",
+    "chunks": 110
+  },
+  {
+    "doc_id": "2605.23204",
+    "file": "48-2605.23204.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2608.05179",
+    "file": "49-2608.05179.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2411.14199",
+    "file": "50-2411.14199.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2025.emnlp-main.1546",
+    "file": "51-2025.emnlp-main.1546.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2509.23426",
+    "file": "52-2509.23426.pdf",
+    "chunks": 105
+  },
+  {
+    "doc_id": "2503.18102",
+    "file": "53-2503.18102.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2508.15126",
+    "file": "54-2508.15126.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2610.23480",
+    "file": "55-2610.23480.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2502.18864",
+    "file": "56-2502.18864v1.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2506.08140",
+    "file": "57-2506.08140.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2407.01725",
+    "file": "58-2407.01725.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "01-fact-or-fiction",
+    "file": "01-fact-or-fiction.pdf",
+    "chunks": 117
+  },
+  {
+    "doc_id": "02-multivers",
+    "file": "02-multivers.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "03-factscore",
+    "file": "03-factscore.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "04-enabling-large-language-models-to-generate-text",
+    "file": "04-enabling-large-language-models-to-generate-text.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "05-evaluating-verifiability-in-generative-search-en",
+    "file": "05-evaluating-verifiability-in-generative-search-en.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "06-mscinli",
+    "file": "06-mscinli.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "07-minicheck",
+    "file": "07-minicheck.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "08-attributionbench",
+    "file": "08-attributionbench.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "09-a-systematic-survey-of-claim-verification",
+    "file": "09-a-systematic-survey-of-claim-verification.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2607.00738",
+    "file": "10-2607.00738.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "11-2106.05707",
+    "file": "11-2106.05707.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "12-2308.13418",
+    "file": "12-2308.13418.pdf",
+    "chunks": 119
+  },
+  {
+    "doc_id": "13-scitab",
+    "file": "13-scitab.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "14-deplot",
+    "file": "14-deplot.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2403.17169",
+    "file": "15-2403.17169.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2408.09869",
+    "file": "16-2408.09869.pdf",
+    "chunks": 82
+  },
+  {
+    "doc_id": "2512.10888",
+    "file": "17-2512.10888.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2603.08910",
+    "file": "18-2603.08910.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2603.19756",
+    "file": "19-2603.19756.pdf",
+    "chunks": 113
+  },
+  {
+    "doc_id": "22-2103.07534",
+    "file": "22-2103.07534.pdf",
+    "chunks": 101
+  },
+  {
+    "doc_id": "23-2205.01833",
+    "file": "23-2205.01833.pdf",
+    "chunks": 19
+  },
+  {
+    "doc_id": "24-2301.10140",
+    "file": "24-2301.10140.pdf",
+    "chunks": 69
+  },
+  {
+    "doc_id": "26-search-engines",
+    "file": "26-search-engines.pdf",
+    "chunks": 89
+  },
+  {
+    "doc_id": "27-natural-language-processing-course-notes-mit-pre",
+    "file": "27-natural-language-processing-course-notes-mit-pre.pdf",
+    "chunks": 85
+  },
+  {
+    "doc_id": "29-2010.06467",
+    "file": "29-2010.06467.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "30-2003.02320",
+    "file": "30-2003.02320.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "31-speech-and-language-processing",
+    "file": "31-speech-and-language-processing.pdf",
+    "chunks": 107
+  },
+  {
+    "doc_id": "32-the-probabilistic-relevance-framework",
+    "file": "32-the-probabilistic-relevance-framework.pdf",
+    "chunks": 64
+  },
+  {
+    "doc_id": "33-natural-language-processing-university-of-cambri",
+    "file": "33-natural-language-processing-university-of-cambri.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "34-1510.00726",
+    "file": "34-1510.00726.pdf",
+    "chunks": 106
+  },
+  {
+    "doc_id": "35-stanford-cs276-lecture-7",
+    "file": "35-stanford-cs276-lecture-7.pdf",
+    "chunks": 21
+  },
+  {
+    "doc_id": "36-stanford-cs224n-lecture-note-10",
+    "file": "36-stanford-cs224n-lecture-note-10.pdf",
+    "chunks": 83
+  },
+  {
+    "doc_id": "37-datacite-metadata-schema-documentation-for-the-p",
+    "file": "37-datacite-metadata-schema-documentation-for-the-p.pdf",
+    "chunks": 59
+  },
+  {
+    "doc_id": "38-ansi-niso-z39-96",
+    "file": "38-ansi-niso-z39-96.pdf",
+    "chunks": 98
+  },
+  {
+    "doc_id": "39-niso-rp",
+    "file": "39-niso-rp.pdf",
+    "chunks": 93
+  },
+  {
+    "doc_id": "40-tei-p5",
+    "file": "40-tei-p5.pdf",
+    "chunks": 116
+  },
+  {
+    "doc_id": "01-fairness-and-machine-learning-limitations-and-op",
+    "file": "01-fairness-and-machine-learning-limitations-and-op.pdf",
+    "chunks": 110
+  },
+  {
+    "doc_id": "02-2107.07511",
+    "file": "02-2107.07511.pdf",
+    "chunks": 112
+  },
+  {
+    "doc_id": "03-survey-article-inter",
+    "file": "03-survey-article-inter.pdf",
+    "chunks": 116
+  },
+  {
+    "doc_id": "05-appropriate-reliance-on-genai-research-synthesis",
+    "file": "05-appropriate-reliance-on-genai-research-synthesis.pdf",
+    "chunks": 81
+  },
+  {
+    "doc_id": "06-2211.03540",
+    "file": "06-2211.03540.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "07-who-should-predict-exact-algorithms-for-learning",
+    "file": "07-who-should-predict-exact-algorithms-for-learning.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2404.04059",
+    "file": "08-2404.04059.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2405.06087",
+    "file": "09-2405.06087.pdf",
+    "chunks": 114
+  },
+  {
+    "doc_id": "10-language-models-with-conformal-factuality-guaran",
+    "file": "10-language-models-with-conformal-factuality-guaran.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "11-llm",
+    "file": "11-llm.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2404.18796",
+    "file": "12-2404.18796.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "13-know-your-limits-a-survey-of-abstention-in-large",
+    "file": "13-know-your-limits-a-survey-of-abstention-in-large.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2608.23642",
+    "file": "14-2608.23642.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "15-the-good-research-code-handbook",
+    "file": "15-the-good-research-code-handbook.pdf",
+    "chunks": 41
+  },
+  {
+    "doc_id": "16-ten-simple-rules-for-writing-dockerfiles-for-rep",
+    "file": "16-ten-simple-rules-for-writing-dockerfiles-for-rep.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "17-computational-reproducibility-a-primer-from-ukrn",
+    "file": "17-computational-reproducibility-a-primer-from-ukrn.pdf",
+    "chunks": 42
+  },
+  {
+    "doc_id": "18-improving-reproducibility-in-machine-learning-re",
+    "file": "18-improving-reproducibility-in-machine-learning-re.pdf",
+    "chunks": 87
+  },
+  {
+    "doc_id": "19-reforms-consensus",
+    "file": "19-reforms-consensus.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "20-packaging-research-artefacts-with-ro",
+    "file": "20-packaging-research-artefacts-with-ro.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "21-2207.07048",
+    "file": "21-2207.07048.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2502.00902",
+    "file": "23-2502.00902.pdf",
+    "chunks": 88
+  },
+  {
+    "doc_id": "24-computational-reproducibility-what-to-expect-fro",
+    "file": "24-computational-reproducibility-what-to-expect-fro.pdf",
+    "chunks": 68
+  },
+  {
+    "doc_id": "2601.12811",
+    "file": "25-2601.12811.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "26-unesco-recommendation-on-open-science",
+    "file": "26-unesco-recommendation-on-open-science.pdf",
+    "chunks": 70
+  },
+  {
+    "doc_id": "27-the-fair-guiding-principles-for-scientific-data",
+    "file": "27-the-fair-guiding-principles-for-scientific-data.pdf",
+    "chunks": 92
+  },
+  {
+    "doc_id": "28-introducing-the-fair-principles-for-research-sof",
+    "file": "28-introducing-the-fair-principles-for-research-sof.pdf",
+    "chunks": 59
+  },
+  {
+    "doc_id": "29-artificial-intelligence-risk-management-framewor",
+    "file": "29-artificial-intelligence-risk-management-framewor.pdf",
+    "chunks": 85
+  },
+  {
+    "doc_id": "30-artificial-intelligence-risk-management-framewor",
+    "file": "30-artificial-intelligence-risk-management-framewor.pdf",
+    "chunks": 101
+  },
+  {
+    "doc_id": "31-recommendations-for-the-conduct-reporting-editin",
+    "file": "31-recommendations-for-the-conduct-reporting-editin.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "35-open-source-software-security-principles-and-pra",
+    "file": "35-open-source-software-security-principles-and-pra.pdf",
+    "chunks": 117
+  },
+  {
+    "doc_id": "2403.13784",
+    "file": "36-2403.13784.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "37-rethinking-open-source-generative-ai-open",
+    "file": "37-rethinking-open-source-generative-ai-open.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2403.07183",
+    "file": "38-2403.07183.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "39-ethical-guidelines-for-the-use-of-generative-art",
+    "file": "39-ethical-guidelines-for-the-use-of-generative-art.pdf",
+    "chunks": 51
+  },
+  {
+    "doc_id": "2603.04891",
+    "file": "40-2603.04891.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "02-hernanrobins_whatif_2jan25",
+    "file": "02-hernanrobins_whatif_2jan25.pdf",
+    "chunks": 105
+  },
+  {
+    "doc_id": "03-fcdae",
+    "file": "03-fcdae.pdf",
+    "chunks": 53
+  },
+  {
+    "doc_id": "04-runge_causal_inference_for_time_series_nree",
+    "file": "04-runge_causal_inference_for_time_series_nree.pdf",
+    "chunks": 107
+  },
+  {
+    "doc_id": "05-cinelli-20et-20al-20--20challenges",
+    "file": "05-cinelli-20et-20al-20--20challenges.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "06-2304.05376",
+    "file": "06-2304.05376.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2401.06949",
+    "file": "07-2401.06949.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "08-2312.03687",
+    "file": "08-2312.03687.pdf",
+    "chunks": 97
+  },
+  {
+    "doc_id": "2609.16466",
+    "file": "09-2609.16466.pdf",
+    "chunks": 81
+  },
+  {
+    "doc_id": "2604.23580",
+    "file": "10-2604.23580.pdf",
+    "chunks": 93
+  },
+  {
+    "doc_id": "2407.10362",
+    "file": "11-2407.10362.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2604.09554",
+    "file": "12-2604.09554.pdf",
+    "chunks": 105
+  },
+  {
+    "doc_id": "2503.00096",
+    "file": "13-2503.00096.pdf",
+    "chunks": 101
+  },
+  {
+    "doc_id": "2405.17631",
+    "file": "14-2405.17631.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2507.02004",
+    "file": "15-2507.02004.pdf",
+    "chunks": 47
+  },
+  {
+    "doc_id": "2502.12054",
+    "file": "16-2502.12054.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2504.16074",
+    "file": "17-2504.16074.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2506.17667",
+    "file": "18-2506.17667.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2510.21652",
+    "file": "22-2510.21652.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2610.18449",
+    "file": "23-2610.18449.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2501.04227",
+    "file": "24-2501.04227.pdf",
+    "chunks": 119
+  },
+  {
+    "doc_id": "2411.00816",
+    "file": "25-2411.00816.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2504.00255",
+    "file": "26-2504.00255.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2605.27700",
+    "file": "31-2605.27700.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2601.18724",
+    "file": "35-2601.18724.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2504.09737",
+    "file": "36-2504.09737.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2501.05468",
+    "file": "37-2501.05468.pdf",
+    "chunks": 98
+  },
+  {
+    "doc_id": "38-causal_inf_book",
+    "file": "38-causal_inf_book.pdf",
+    "chunks": 73
+  },
+  {
+    "doc_id": "39-math80667a-edsm",
+    "file": "39-math80667a-edsm.pdf",
+    "chunks": 66
+  },
+  {
+    "doc_id": "40-syllabus222_f2020",
+    "file": "40-syllabus222_f2020.pdf",
+    "chunks": 15
+  },
+  {
+    "doc_id": "2026.aacl-long.52",
+    "file": "41-2026.aacl-long.52.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "42-meen5035_6035_design_of_experiments_syllabus_sp2",
+    "file": "42-meen5035_6035_design_of_experiments_syllabus_sp2.pdf",
+    "chunks": 43
+  },
+  {
+    "doc_id": "2503.08979",
+    "file": "44-2503.08979.pdf",
+    "chunks": 111
+  },
+  {
+    "doc_id": "45-2024_jctc_cheng",
+    "file": "45-2024_jctc_cheng.pdf",
+    "chunks": 75
+  },
+  {
+    "doc_id": "2409.10304",
+    "file": "47-2409.10304.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "2610.36510",
+    "file": "48-2610.36510.pdf",
+    "chunks": 52
+  },
+  {
+    "doc_id": "2607.10712",
+    "file": "49-2607.10712.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "50-survey-ai-auto-research",
+    "file": "50-survey-ai-auto-research.pdf",
+    "chunks": 120
+  },
+  {
+    "doc_id": "51-sp2026posters-final61",
+    "file": "51-sp2026posters-final61.pdf",
+    "chunks": 34
+  },
+  {
+    "doc_id": "2609.16995",
+    "file": "53-2609.16995.pdf",
+    "chunks": 101
+  },
+  {
+    "doc_id": "54-causal_inf_book",
+    "file": "54-causal_inf_book.pdf",
+    "chunks": 73
+  },
+  {
+    "doc_id": "55-applications_of_machine_learning_in_largescale_o",
+    "file": "55-applications_of_machine_learning_in_largescale_o.pdf",
+    "chunks": 90
+  },
+  {
+    "doc_id": "56-methods_failing_the_data",
+    "file": "56-methods_failing_the_data.pdf",
+    "chunks": 54
+  }
+]

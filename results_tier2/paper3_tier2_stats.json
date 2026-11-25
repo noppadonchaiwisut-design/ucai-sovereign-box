@@ -1,0 +1,20 @@
+{
+  "sov_vs_bm25": {
+    "a_right_b_wrong": 45,
+    "a_wrong_b_right": 3,
+    "discordant": 48,
+    "p_value": 0.0
+  },
+  "sov_local_llm_vs_bm25": {
+    "a_right_b_wrong": 45,
+    "a_wrong_b_right": 3,
+    "discordant": 48,
+    "p_value": 0.0
+  },
+  "sov_vs_local_llm": {
+    "a_right_b_wrong": 0,
+    "a_wrong_b_right": 0,
+    "discordant": 0,
+    "p_value": 1.0
+  }
+}

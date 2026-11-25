@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 490" width="1100" height="490">
+  <defs>
+    <style>
+      text { font-family: 'Segoe UI', Arial, Helvetica, sans-serif; }
+      .h1 { font-size: 19px; font-weight: 700; fill: #ffffff; }
+      .sub { font-size: 12.5px; fill: #cbd5e1; }
+      .shdr { font-size: 13px; font-weight: 700; fill: #ffffff; }
+      .btitle { font-size: 13.5px; font-weight: 700; fill: #0f172a; }
+      .btxt { font-size: 12px; fill: #334155; }
+      .badge { font-size: 11px; font-weight: 700; }
+      .arr { stroke: #334155; stroke-width: 2.2; fill: none; marker-end: url(#a3e); }
+    </style>
+    <marker id="a3e" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0,9 3.5,0 7" fill="#334155"/></marker>
+  </defs>
+
+  <rect width="1100" height="490" rx="12" fill="#f8fafc"/>
+  <rect width="1100" height="66" rx="12" fill="#0f172a"/>
+  <rect y="48" width="1100" height="18" fill="#0f172a"/>
+  <text x="26" y="30" class="h1">ucai-sovereign-box v0.2.0: Air-Gapped Single-GPU Research-in-a-Box Architecture</text>
+  <text x="26" y="51" class="sub">168 Open-Access PDFs (17,623 Chunks) + Spoke 1/2 Deterministic Guard + Local Qwen2.5-1.5B + RO-Crate 1.1 ($0 Cloud)</text>
+
+  <rect x="24" y="86" width="214" height="278" rx="10" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+  <rect x="24" y="86" width="214" height="32" rx="10" fill="#334155"/>
+  <rect x="24" y="102" width="214" height="16" fill="#334155"/>
+  <text x="131" y="107" text-anchor="middle" class="shdr">1. Full-Corpus Index</text>
+  <text x="40" y="140" class="btitle">168/168 PDFs (0 Skipped)</text>
+  <text x="40" y="162" class="btxt">• 17,623 page-level chunks</text>
+  <text x="40" y="182" class="btxt">• 80,593 BM25 terms</text>
+  <text x="40" y="202" class="btxt">• Per-doc numeric lookup</text>
+  <text x="40" y="222" class="btxt">• all-MiniLM-L6-v2 (384D)</text>
+  <rect x="40" y="248" width="182" height="96" rx="8" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="131" y="272" text-anchor="middle" class="badge" fill="#0f172a">Hybrid Retrieval (0.55/0.45)</text>
+  <text x="131" y="292" text-anchor="middle" class="btxt">Peak VRAM: 409.93 MB</text>
+  <text x="131" y="312" text-anchor="middle" class="btxt">Hit@3: 0.7400 (MRR 0.6433)</text>
+  <text x="131" y="332" text-anchor="middle" class="badge" fill="#047857">$0.00 Cloud API Cost</text>
+
+  <line x1="238" y1="225" x2="266" y2="225" class="arr"/>
+
+  <rect x="268" y="86" width="290" height="278" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+  <rect x="268" y="86" width="290" height="32" rx="10" fill="#1d4ed8"/>
+  <rect x="268" y="102" width="290" height="16" fill="#1d4ed8"/>
+  <text x="413" y="107" text-anchor="middle" class="shdr">2. Spoke 1/2 Deterministic Guard</text>
+  <text x="284" y="140" class="btitle" fill="#1e3a8a">evaluator.py (25.05 ms/item)</text>
+  <text x="284" y="164" class="btxt">• Spoke 2 Sanitizer: catches 100% of</text>
+  <text x="294" y="182" class="btxt">ZW, HTML, \phantom, &amp; chair spoofs</text>
+  <text x="284" y="206" class="btxt">• Abstention Gate: DOC_NOT_INDEXED</text>
+  <text x="294" y="224" class="btxt">prevents false unindexed accusations</text>
+  <text x="284" y="248" class="btxt">• Spoke 1 Provenance: verifies numbers</text>
+  <text x="294" y="266" class="btxt">against claimed PDF &amp; donor rank</text>
+  <rect x="284" y="288" width="258" height="56" rx="8" fill="#dbeafe" stroke="#3b82f6"/>
+  <text x="413" y="311" text-anchor="middle" class="badge" fill="#1e40af">Safety F1 = 0.9184 | Acc = 0.9200</text>
+  <text x="413" y="331" text-anchor="middle" class="btxt">45:3 wins vs BM25 (p &lt; 10⁻⁸)</text>
+
+  <line x1="558" y1="225" x2="586" y2="225" class="arr"/>
+
+  <rect x="588" y="86" width="244" height="278" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+  <rect x="588" y="86" width="244" height="32" rx="10" fill="#059669"/>
+  <rect x="588" y="102" width="244" height="16" fill="#059669"/>
+  <text x="710" y="107" text-anchor="middle" class="shdr">3. Stacked Local Open LLM</text>
+  <text x="604" y="140" class="btitle" fill="#065f46">Qwen2.5-1.5B-Instruct (FP16)</text>
+  <text x="604" y="164" class="btxt">• Co-located on same GPU as MiniLM</text>
+  <text x="604" y="184" class="btxt">• Audits 52 Stage-1 survivors offline</text>
+  <text x="604" y="204" class="btxt">• 0% extra FP vs deterministic guard</text>
+  <text x="604" y="224" class="btxt">• Latency: 229.2 ms/item (35x faster</text>
+  <text x="614" y="242" class="btxt">than Cloud Security-Aware LLM)</text>
+  <rect x="604" y="280" width="212" height="64" rx="8" fill="#d1fae5" stroke="#34d399"/>
+  <text x="710" y="304" text-anchor="middle" class="badge" fill="#065f46">Peak VRAM: 3,086.07 MB</text>
+  <text x="710" y="324" text-anchor="middle" class="btxt">(13.68% of L4 | ~18.8% of T4)</text>
+
+  <line x1="832" y1="225" x2="860" y2="225" class="arr"/>
+
+  <rect x="862" y="86" width="214" height="278" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+  <rect x="862" y="86" width="214" height="32" rx="10" fill="#d97706"/>
+  <rect x="862" y="102" width="214" height="16" fill="#d97706"/>
+  <text x="969" y="107" text-anchor="middle" class="shdr">4. RO-Crate 1.1 Bundle</text>
+  <text x="878" y="140" class="btitle" fill="#92400e">crate_packager.py</text>
+  <text x="878" y="164" class="btxt">• ro-crate-metadata.json</text>
+  <text x="888" y="182" class="btxt">(FAIR4RS JSON-LD 1.1)</text>
+  <text x="878" y="206" class="btxt">• SHA256SUMS.txt</text>
+  <text x="888" y="224" class="btxt">(6/6 artifacts hashed)</text>
+  <text x="878" y="248" class="btxt">• Hardware profile attached</text>
+  <rect x="878" y="280" width="182" height="64" rx="8" fill="#fef3c7" stroke="#fbbf24"/>
+  <text x="969" y="304" text-anchor="middle" class="badge" fill="#92400e">verify_ro_crate_bundle()</text>
+  <text x="969" y="324" text-anchor="middle" class="btxt">6/6 Files Verified (100%)</text>
+
+  <rect x="24" y="384" width="1052" height="84" rx="10" fill="#ffffff" stroke="#0f766e" stroke-width="2"/>
+  <text x="44" y="411" class="btitle" fill="#0f766e">100% Data Sovereignty + $0.00 Cloud API Cost + Full Cryptographic Provenance</text>
+  <text x="44" y="433" class="btxt">No unpublished manuscripts or queries leave local hardware; 86.3% of L4 VRAM (~81% of 16 GB T4) remains free for larger quantized models.</text>
+  <text x="44" y="453" class="badge" fill="#0f766e">Completes the 3-Spoke UCAI Flagship 4 Stack: Spoke 1 (ucai-verify) + Spoke 2 (ucai-review-guard) + Spoke 3 (ucai-sovereign-box).</text>
+</svg>
